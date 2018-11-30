@@ -12,7 +12,7 @@
         <div class="container">
                 <form id="analyse" method="post">
                         <div class="form-group" id="form-action">
-                            <label for="form-action">Select an Action :</label></br>
+                            <label class="group-label" for="form-action">Select an Action :</label></br>
                             <div class="center">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="action" value="atos">
@@ -68,7 +68,7 @@
                                     <option>5</option>
                                 </select>
                                 <label classe="tab" for="macd">MACD</label>
-                                <select class="form-control" id="macd">
+                                <select class="form-control" id="macd" >
                                     <option>-5</option>
                                     <option>-4</option>
                                     <option>-3</option>
@@ -160,7 +160,10 @@
                         <button type="button" class="btn btn-primary" onclick="result()">Analyse</button>
                     </form>
     </div>
-    <p id="value">value:</p>
-        <p id="result">result:</p>
+        <p id="value"></p>
+        <p id="result"></p>
+        <p id="reasonInfo"></p>
+        <p id="reasonAnalyse"></p>
+        <p id="reasonRatio"></p>
     </body>
 </html>

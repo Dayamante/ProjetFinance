@@ -31,6 +31,8 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
 }
 
 .group-label {
+    color:#fff;
+    font-size: 20px;
     font-weight: bold;
 }
 
