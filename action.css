@@ -12,8 +12,9 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
   padding: 50px 70px 70px 71px;
 }
 
-.l-tab {
-    margin-left: 30px;
+.form-check-input {
+    width: 30px;
+    height: 30px;
 }
 
 .form-control {
@@ -29,11 +30,15 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
     font-weight: bold;
 }
 
+.group-label {
+    font-weight: bold;
+}
+
+
 .center {
     margin-left: 120px;
 }
 
 .btn {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 150px;
 }

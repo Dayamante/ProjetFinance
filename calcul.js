@@ -22,7 +22,6 @@ function result() {
 
     Output = 9 * Info + 6 * (0.4 * MACD + 0.2 * RSI + 0.2 * Bollinger + 0.2 * Tendances) + 4 * (0.5 * PER + 0.3 * Dividende + 0.2 * BNPA)
 
-    alert(obj.innerText);
     obj_v.innerText = Output;
 
     if (Output > 0) {
