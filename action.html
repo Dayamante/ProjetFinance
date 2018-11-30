@@ -7,55 +7,33 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
     </head>
-    <body id="AnalyseForm">
-        <div class="container">
-            <h1 class="form-heading">Analyse Form</h1>
-            <div class="analyse-form">
-                <div class="main-div">
-                    <div class="form-group" id="form-action">
-                        <label for="form-action">Select an Action :</label>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">ATOS</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">BIOMérieux</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
-
     <body id="LoginForm">
         <div class="container">
                 <form id="analyse" method="post">
                         <div class="form-group" id="form-action">
                             <label for="form-action">Select an Action :</label>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="atos" value="true">
                                 <label class="form-check-label" for="inlineRadio1">ATOS</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="bio" value="true">
                                 <label class="form-check-label" for="inlineRadio2">BIOMérieux</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="l'oreal" value="true">
                                 <label class="form-check-label" for="inlineRadio3">L'OREAL</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="technip" value="true">
                                 <label class="form-check-label" for="inlineRadio4">TECHNIPFMC</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="air" value="true">
                                 <label class="form-check-label" for="inlineRadio5">AIR LIQUIDE</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sopra" value="true">
                                 <label class="form-check-label" for="inlineRadio6">SOPRA STERIA</label>
                             </div>
                         </div>
@@ -76,9 +54,9 @@
                                 </select>
                             </div>
                             <div class="d-inline form-group" id="form-analyse">
-                                <label for="form-analyse">Analyse : </label>
-                                <label for="macd">MACD</label>
-                                <select class="form-control" id="macd">
+                                <label for="form-analyse">Analyse : </label></br>
+                                <label classe="tab" for="macd">MACD</label>
+                                <select class="form-control tab" id="macd">
                                     <option>-1</option>
                                     <option>-2</option>
                                     <option>-3</option>
@@ -91,8 +69,8 @@
                                     <option>4</option>
                                     <option>5</option>
                                 </select>
-                                <label for="rsi">RSI</label>
-                                <select class="form-control" id="rsi">
+                                <label classe="tab" for="rsi">RSI</label>
+                                <select class="form-control tab" id="rsi">
                                     <option>-1</option>
                                     <option>-2</option>
                                     <option>-3</option>
@@ -105,8 +83,8 @@
                                     <option>4</option>
                                     <option>5</option>
                                 </select>
-                                <label for="bollinger">Bollinger</label>
-                                <select class="form-control" id="bollinger">
+                                <label classe="tab" for="bollinger">Bollinger</label>
+                                <select class="form-control tab" id="bollinger">
                                     <option>-1</option>
                                     <option>-2</option>
                                     <option>-3</option>
@@ -119,7 +97,7 @@
                                     <option>4</option>
                                     <option>5</option>
                                 </select>
-                                <label for="tendances">Tendances</label>
+                                <label classe="tab" for="tendances">Tendances</label>
                                 <select class="form-control" id="tendances">
                                     <option>-1</option>
                                     <option>-2</option>
@@ -135,8 +113,8 @@
                                 </select>
                             </div>
                             <div class="d-inline form-group"id="form-ratio">
-                                    <label for="form-ratio">Ratio : </label>
-                                    <label for="per">PER</label>
+                                    <label for="form-ratio">Ratio : </label></br>
+                                    <label classe="tab" for="per">PER</label>
                                     <select class="form-control" id="per">
                                         <option>-1</option>
                                         <option>-2</option>
@@ -150,7 +128,7 @@
                                         <option>4</option>
                                         <option>5</option>
                                     </select>
-                                    <label for="dividende">Dividende</label>
+                                    <label classe="tab" for="dividende">Dividende</label>
                                     <select class="form-control" id="dividende">
                                         <option>-1</option>
                                         <option>-2</option>
@@ -164,7 +142,7 @@
                                         <option>4</option>
                                         <option>5</option>
                                     </select>
-                                    <label for="bnpa">BNPA</label>
+                                    <label classe="tab" for="bnpa">BNPA</label>
                                     <select class="form-control" id="bnpa">
                                         <option>-1</option>
                                         <option>-2</option>

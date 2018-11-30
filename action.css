@@ -11,3 +11,16 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
   max-width: 38%;
   padding: 50px 70px 70px 71px;
 }
+
+.l-tab {
+    margin-left: 30px;
+}
+
+.form-control {
+    display: inline-flex;
+    width: 150px;
+}
+
+.tab {
+    margin-left: 70px;
+}
