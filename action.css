@@ -24,3 +24,16 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
 .tab {
     margin-left: 70px;
 }
+
+.form-check-label {
+    font-weight: bold;
+}
+
+.center {
+    margin-left: 120px;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+}

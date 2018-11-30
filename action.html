@@ -11,40 +11,42 @@
         <div class="container">
                 <form id="analyse" method="post">
                         <div class="form-group" id="form-action">
-                            <label for="form-action">Select an Action :</label>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="atos" value="true">
-                                <label class="form-check-label" for="inlineRadio1">ATOS</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="bio" value="true">
-                                <label class="form-check-label" for="inlineRadio2">BIOMérieux</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="l'oreal" value="true">
-                                <label class="form-check-label" for="inlineRadio3">L'OREAL</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="technip" value="true">
-                                <label class="form-check-label" for="inlineRadio4">TECHNIPFMC</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="air" value="true">
-                                <label class="form-check-label" for="inlineRadio5">AIR LIQUIDE</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="sopra" value="true">
-                                <label class="form-check-label" for="inlineRadio6">SOPRA STERIA</label>
+                            <label for="form-action">Select an Action :</label></br>
+                            <div class="center">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="action" value="atos">
+                                    <label class="form-check-label" for="action">ATOS</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="action" value="bio">
+                                    <label class="form-check-label" for="action">BIOMérieux</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="action" value="loreal">
+                                    <label class="form-check-label" for="action">L'OREAL</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="action" value="technip">
+                                    <label class="form-check-label" for="action">TECHNIPFMC</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="action" value="air">
+                                    <label class="form-check-label" for="action">AIR LIQUIDE</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="action" value="sopra">
+                                    <label class="form-check-label" for="action">SOPRA STERIA</label>
+                                </div>
                             </div>
                         </div>
                             <div class="form-group">
                                 <label for="info">Info</label>
                                 <select class="form-control" id="info">
-                                    <option>-1</option>
-                                    <option>-2</option>
-                                    <option>-3</option>
-                                    <option>-4</option>
                                     <option>-5</option>
+                                    <option>-4</option>
+                                    <option>-3</option>
+                                    <option>-2</option>
+                                    <option>-1</option>
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -53,15 +55,16 @@
                                     <option>5</option>
                                 </select>
                             </div>
+                        </br>
                             <div class="d-inline form-group" id="form-analyse">
                                 <label for="form-analyse">Analyse : </label></br>
                                 <label classe="tab" for="macd">MACD</label>
-                                <select class="form-control tab" id="macd">
-                                    <option>-1</option>
-                                    <option>-2</option>
-                                    <option>-3</option>
-                                    <option>-4</option>
+                                <select class="form-control" id="macd">
                                     <option>-5</option>
+                                    <option>-4</option>
+                                    <option>-3</option>
+                                    <option>-2</option>
+                                    <option>-1</option>
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -70,12 +73,12 @@
                                     <option>5</option>
                                 </select>
                                 <label classe="tab" for="rsi">RSI</label>
-                                <select class="form-control tab" id="rsi">
-                                    <option>-1</option>
-                                    <option>-2</option>
-                                    <option>-3</option>
-                                    <option>-4</option>
+                                <select class="form-control" id="rsi">
                                     <option>-5</option>
+                                    <option>-4</option>
+                                    <option>-3</option>
+                                    <option>-2</option>
+                                    <option>-1</option>
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -84,12 +87,12 @@
                                     <option>5</option>
                                 </select>
                                 <label classe="tab" for="bollinger">Bollinger</label>
-                                <select class="form-control tab" id="bollinger">
-                                    <option>-1</option>
-                                    <option>-2</option>
-                                    <option>-3</option>
-                                    <option>-4</option>
+                                <select class="form-control" id="bollinger">
                                     <option>-5</option>
+                                    <option>-4</option>
+                                    <option>-3</option>
+                                    <option>-2</option>
+                                    <option>-1</option>
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -99,11 +102,11 @@
                                 </select>
                                 <label classe="tab" for="tendances">Tendances</label>
                                 <select class="form-control" id="tendances">
-                                    <option>-1</option>
-                                    <option>-2</option>
-                                    <option>-3</option>
-                                    <option>-4</option>
                                     <option>-5</option>
+                                    <option>-4</option>
+                                    <option>-3</option>
+                                    <option>-2</option>
+                                    <option>-1</option>
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -112,15 +115,16 @@
                                     <option>5</option>
                                 </select>
                             </div>
+                        </br></br>
                             <div class="d-inline form-group"id="form-ratio">
                                     <label for="form-ratio">Ratio : </label></br>
                                     <label classe="tab" for="per">PER</label>
                                     <select class="form-control" id="per">
-                                        <option>-1</option>
-                                        <option>-2</option>
-                                        <option>-3</option>
-                                        <option>-4</option>
                                         <option>-5</option>
+                                        <option>-4</option>
+                                        <option>-3</option>
+                                        <option>-2</option>
+                                        <option>-1</option>
                                         <option>0</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -130,11 +134,11 @@
                                     </select>
                                     <label classe="tab" for="dividende">Dividende</label>
                                     <select class="form-control" id="dividende">
-                                        <option>-1</option>
-                                        <option>-2</option>
-                                        <option>-3</option>
-                                        <option>-4</option>
                                         <option>-5</option>
+                                        <option>-4</option>
+                                        <option>-3</option>
+                                        <option>-2</option>
+                                        <option>-1</option>
                                         <option>0</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -144,11 +148,11 @@
                                     </select>
                                     <label classe="tab" for="bnpa">BNPA</label>
                                     <select class="form-control" id="bnpa">
-                                        <option>-1</option>
-                                        <option>-2</option>
-                                        <option>-3</option>
-                                        <option>-4</option>
                                         <option>-5</option>
+                                        <option>-4</option>
+                                        <option>-3</option>
+                                        <option>-2</option>
+                                        <option>-1</option>
                                         <option>0</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -157,7 +161,8 @@
                                         <option>5</option>
                                     </select>
                             </div>
-                                <button type="submit" class="btn btn-primary">Analyse</button>
+                        </br></br>
+                        <button type="button" class="btn btn-primary" onclick="result()">Analyse</button>
                     </form>
         </div>
     </body>
