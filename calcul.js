@@ -20,7 +20,7 @@ function result() {
 
 
 
-    Output = 9 * Info + 6 * (0.4 * MACD + 0.2 * RSI + 0.2 * Bollinger + 0.2 * Tendances) + 4 * (0.5 * PER + 0.3 * Dividende + 0.2 * BNPA)
+    Output = ( 9 * Info + 6 * Bollinger * (0.4 * MA5CD + 0.3 * RSI + 0.3 * Tendances) + 4 * (0.5 * PER + 0.3 * Dividende + 0.2 * BNPA)  + ( Math.random() * 10 - 5) ) / 220
 
     obj_v.innerText = Output;
 
